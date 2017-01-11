@@ -1,0 +1,5 @@
+jbig2enc (0.28+git0693dcd-1) unstable; urgency=medium
+
+  * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+
+ -- rbrito <rbrito@ime.usp.br>  Wed, 11 Jan 2017 19:21:03 -0200

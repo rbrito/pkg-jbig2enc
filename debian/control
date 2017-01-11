@@ -1,0 +1,22 @@
+Source: jbig2enc
+Section: graphics
+Priority: optional
+Maintainer: Rogério Brito <rbrito@ime.usp.br>
+Build-Depends: debhelper (>=9)
+Standards-Version: 3.9.8
+Homepage: https://github.com/agl/jbig2enc
+#Vcs-Git: git://anonscm.debian.org/collab-maint/jbig2enc.git
+#Vcs-Browser: https://anonscm.debian.org/cgit/collab-maint/jbig2enc.git
+
+Package: jbig2enc
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: a JBIG2 encoder
+ JBIG2 encodes bitonal (1 bpp) images using a number of clever tricks to get
+ better compression than G4. This encoder can:
+ .
+ * generate JBIG2 files, or fragments for embedding in PDFs,
+ * generic region encoding,
+ * perform symbol extraction, classification and text region coding,
+ * perform refinement coding and,
+ * compress multipage documents.
