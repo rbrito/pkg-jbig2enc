@@ -2,7 +2,7 @@ jbig2enc (0.28+git0693dcd-1~1.gbp8b1310) UNRELEASED; urgency=medium
 
   ** SNAPSHOT build @8b13100630b92a9d99e833edbdf5944ddb455416 **
 
-  * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+  * Initial release (Closes: #512518)
   * debian/control: Add build-depends.
   * debian/rules: Use the autoreconf plugin with dh.
   * debian/control: Run wrap-and-sort.
