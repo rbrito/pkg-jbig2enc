@@ -26,5 +26,5 @@ export DEB_BUILD_MAINT_OPTIONS = hardening=+all
 override_dh_installdocs:
 	# This is a kludge until we get upstream installation working
 	# as we intend.
-	rm -rf debian/jbig2enc/usr/share/doc/jbig2enc-*
+	rm -rf debian/tmp/usr/share/doc/jbig2enc-*
 	dh_installdocs
