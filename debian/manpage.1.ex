@@ -1,5 +1,5 @@
 .\"                                      Hey, EMACS: -*- nroff -*-
-.\" (C) Copyright 2017 rbrito <rbrito@ime.usp.br>,
+.\" (C) Copyright 2017 Rogério Theodoro de Brito <rbrito@ime.usp.br>,
 .\"
 .\" First parameter, NAME, should be all caps
 .\" Second parameter, SECTION, should be 1-8, maybe w/ subsection
@@ -52,5 +52,5 @@ Show version of program.
 .BR baz (1).
 .br
 The programs are documented fully by
-.IR "The Rise and Fall of a Fooish Bar" ,
+.IR "Rogério Theodoro de Brito" ,
 available via the Info system.
