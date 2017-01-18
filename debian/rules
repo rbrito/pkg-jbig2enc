@@ -15,7 +15,7 @@
 
 
 %:
-	dh $@ --with autoreconf
+	dh $@ --with autoreconf --with python2
 
 
 # dh_make generated override targets
