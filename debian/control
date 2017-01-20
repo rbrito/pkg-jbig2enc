@@ -53,6 +53,7 @@ Package: libjbig2enc-dev
 Section: libdevel
 Architecture: any
 Depends:
+ libjbig2enc0 (= ${binary:Version}),
  ${misc:Depends},
  ${python:Depends},
  ${shlibs:Depends}
