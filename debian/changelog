@@ -1,10 +1,25 @@
-jbig2enc (0.28+git0693dcd-1~1.gbp8b1310) UNRELEASED; urgency=medium
+jbig2enc (0.28+git0693dcd-1~2.gbp3076b8) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @8b13100630b92a9d99e833edbdf5944ddb455416 **
+  ** SNAPSHOT build @3076b8ba1ed848c7c27898388965289c8acdbfd1 **
 
   * Initial release (Closes: #512518)
   * debian/control: Add build-depends.
   * debian/rules: Use the autoreconf plugin with dh.
   * debian/control: Run wrap-and-sort.
+  * debian/control: Fix lintian's description-synopsis-starts-with-article.
+  * debian/control: Fix lintian's possible-unindented-list-in-extended-description.
+  * debian/changelog: Add bug number to be closed.
+  * debian/{control,rules}: Add Python (build-)deps for pdf.py.
+  * debian/control: Add Vcs-* fields.
+  * debian/{compat,control}: Use debhelper compat level 10.
+  * debian/control: Add missing python-all build-dependency.
+  * debian/watch: Create a watch file.
+  * debian/rules: Enable all hardening options.
+  * debian/manpage.1.ex: Fix my name.
+  * debian/manpage.1.ex: Fix name and section of program.
+  * debian/jbig2enc.docs: Install package documentation.
+  * debian/jbig2enc.doc-base: Register the documentation with doc-base.
+  * debian/rules: Avoid duplicate installation of docs.
+  * debian: Split package into command, shared lib and development.
 
  -- Rogério Brito <rbrito@ime.usp.br>  Wed, 11 Jan 2017 19:43:22 -0200
