@@ -1,6 +1,4 @@
-jbig2enc (0.28+git0693dcd-1~2.gbp3076b8) UNRELEASED; urgency=medium
-
-  ** SNAPSHOT build @3076b8ba1ed848c7c27898388965289c8acdbfd1 **
+jbig2enc (0.28+git0693dcd-1) unstable; urgency=medium
 
   * Initial release (Closes: #512518)
   * debian/control:
@@ -21,9 +19,12 @@ jbig2enc (0.28+git0693dcd-1~2.gbp3076b8) UNRELEASED; urgency=medium
   * debian/manpage.1.ex:
     + Fix my name.
     + Fix name and section of program.
-  * debian: Split package into command, shared lib and development.
-  * debian/jbig2enc.docs: Install package documentation.
-  * debian/jbig2enc.doc-base: Register the documentation with doc-base.
-  * debian/rules: Avoid duplicate installation of docs.
+  * Split package into command, shared lib and development.
+    + debian/control: Add dependency of -dev package on the library.
+    + debian/jbig2enc.doc-base: Register the documentation with doc-base.
+    + debian/jbig2enc.docs: Install package documentation.
+    + debian/libjbig2enc0.symbols: Add symbols file.
+    + debian/rules: Avoid duplicate installation of docs.
+  * debian/source: Add override, since upstream doesn't release signatures.
 
- -- Rogério Brito <rbrito@ime.usp.br>  Wed, 11 Jan 2017 19:43:22 -0200
+ -- Rogério Brito <rbrito@ime.usp.br>  Thu, 02 Feb 2017 05:05:34 -0200
