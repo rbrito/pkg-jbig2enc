@@ -15,7 +15,7 @@ export DEB_BUILD_MAINT_OPTIONS = hardening=+all
 
 
 %:
-	dh $@ --with autoreconf --with python2
+	dh $@ --with python2
 
 
 # dh_make generated override targets
