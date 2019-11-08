@@ -1,3 +1,15 @@
+jbig2enc (0.28+git0693dcd-1ubuntu1~0.gbp076de4) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @076de49f07c229c1801d30a32805aa37daa763db **
+
+  * debian/rules:
+    + Remove explicit --with autoreconf from dh invocation.
+      Thanks to João Eriberto Mota Filho for the review.
+    + Use --as-needed linker option to avoid extra dependencies.
+      Thanks to João Eriberto Mota Filho for the review.
+
+ -- Rogério Brito <rbrito@ime.usp.br>  Fri, 08 Nov 2019 20:16:42 -0300
+
 jbig2enc (0.28+git0693dcd-1) unstable; urgency=medium
 
   * Initial release (Closes: #512518)
