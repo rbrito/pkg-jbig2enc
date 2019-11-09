@@ -1,6 +1,6 @@
-jbig2enc (0.28+git0693dcd-2~2.gbp00ced6) UNRELEASED; urgency=medium
+jbig2enc (0.28+git0693dcd-2~3.gbp64165e) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @00ced6dce7309f1aec68aca7ff191bc36e7819ca **
+  ** SNAPSHOT build @64165ebda9ce73ebf768ccfec8409fb0f0114b04 **
 
   * debian/rules:
     + Remove explicit --with autoreconf from dh invocation.
@@ -8,12 +8,13 @@ jbig2enc (0.28+git0693dcd-2~2.gbp00ced6) UNRELEASED; urgency=medium
     + Use --as-needed linker option to avoid extra dependencies.
       Thanks to João Eriberto Mota Filho for the review.
     + Remove commented code and make the file smaller.
-  * debian/libjbig2nc0.symbols: Update symbols file.
   * debian/{compat,control}: Move to debhelper-compat (= 12).
-  * debian/control: Indicate that Rules-Requires-Roots is no.
+  * debian/control:
+    + Indicate that Rules-Requires-Roots is no.
   * debian/copyright: Update my copyright years.
+  * debian/libjbig2enc0.symbols: Update the symbols file.
 
- -- Rogério Brito <rbrito@ime.usp.br>  Sat, 09 Nov 2019 02:29:20 -0300
+ -- Rogério Brito <rbrito@ime.usp.br>  Sat, 09 Nov 2019 02:41:11 -0300
 
 jbig2enc (0.28+git0693dcd-1) unstable; urgency=medium
 
