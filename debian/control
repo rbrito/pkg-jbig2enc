@@ -10,6 +10,7 @@ Build-Depends:
  libleptonica-dev,
  python-all,
  zlib1g-dev
+Rules-Requires-Root: no
 Standards-Version: 3.9.8
 Homepage: https://github.com/agl/jbig2enc
 Vcs-Git: https://github.com/rbrito/pkg-jbig2enc.git
