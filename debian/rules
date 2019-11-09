@@ -1,5 +1,4 @@
 #!/usr/bin/make -f
-# FIXME: See if we still need the following:
 export DEB_BUILD_MAINT_OPTIONS = hardening=+all
 export DEB_LDFLAGS_MAINT_APPEND = -Wl,--as-needed
 
