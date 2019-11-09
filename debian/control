@@ -5,7 +5,6 @@ Maintainer: Rogério Brito <rbrito@ime.usp.br>
 Build-Depends:
  debhelper (>= 12),
  debhelper-compat (= 12),
- dh-autoreconf,
  dh-python,
  libleptonica-dev,
  python-all,
