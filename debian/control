@@ -1,7 +1,7 @@
 Source: jbig2enc
 Section: graphics
 Priority: optional
-Maintainer: Rogério Brito <rbrito@ime.usp.br>
+Maintainer: Rogério Theodoro de Brito <rbrito@ime.usp.br>
 Build-Depends:
  debhelper-compat (= 13),
  dh-python,
