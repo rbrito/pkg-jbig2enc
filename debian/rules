@@ -3,7 +3,7 @@ export DEB_BUILD_MAINT_OPTIONS = hardening=+all
 export DEB_LDFLAGS_MAINT_APPEND = -Wl,--as-needed
 
 %:
-	dh $@ --with python2
+	dh $@
 
 override_dh_installdocs:
 	# This is a kludge until we get upstream installation working
