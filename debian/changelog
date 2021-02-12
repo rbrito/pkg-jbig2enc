@@ -1,27 +1,42 @@
-jbig2enc (0.29+dfsg1-1) UNRELEASED; urgency=medium
+jbig2enc (0.29+dfsg1-1~1.gbp7c61b3) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @d51a26e2d2e6c4ce94821d77f40c8f8836fe1b73 **
+  ** SNAPSHOT build @7c61b3b4ffa1596ffb475e620c52346245a49822 **
 
+  * New upstream version 0.29+dfsg1
   * debian/rules:
     + Remove explicit --with autoreconf from dh invocation.
       Thanks to João Eriberto Mota Filho for the review.
     + Use --as-needed linker option to avoid extra dependencies.
       Thanks to João Eriberto Mota Filho for the review.
     + Remove commented code and make the file smaller.
+    + Disable python2 plugin.
   * debian/{compat,control}: Move to debhelper-compat (= 12).
   * debian/control:
+    + Mark that jbig2enc enhances ocrmypdf (for lossy compression).
+    + Add binary package with the Python script to generate PDFs.
+    + Normalize with wrap-and-sort -s -a -v.
     + Indicate that Rules-Requires-Roots is no.
     + Remove dh-autoreconf Build-Dep implied by debhelper-compat 12.
-  * debian/copyright: Update my copyright years.
+    + debhelper-compat 13 (routine-update)
+    + Standards-Version: 4.5.1 (routine-update)
+    + Remove explicit debhelper dependency on version >= 12.
+    + Remove some substitution variables that are not used.
+    + Remove .la file that upstream builds.
+  * debian/copyright:
+    + Update my copyright years.
+    + Document an excluded PDF file.
   * debian/libjbig2enc0.symbols: Update the symbols file.
   * debian/source/lintian-overrides:
     + Remove and let the tools whine (we can always shut them up latter).
-  * New upstream version
-  * Standards-Version: 4.5.1 (routine-update)
-  * debhelper-compat 13 (routine-update)
-  * Add salsa-ci file (routine-update)
+  * debian/salsa-ci.yml:
+    + Add salsa-ci file (routine-update)
+  * debian/watch: Update to version 4.
+  * debian/upstream/metadata:
+    + Add Bug-Database, Bug-Submit, Repository, Repository-Browse.
+  * debian/jbig2enc.docs: Update to cope with renamed upstream docs.
+  * debian/*.symbols: Update with new symbols.
 
- -- Rogério Brito <rbrito@gmail.com>  Fri, 12 Feb 2021 15:08:31 -0300
+ -- Rogério Brito <rbrito@gmail.com>  Fri, 12 Feb 2021 15:32:38 -0300
 
 jbig2enc (0.28+git0693dcd-1) unstable; urgency=medium
 
