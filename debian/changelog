@@ -1,4 +1,4 @@
-jbig2enc (0.28+git0693dcd-2~4.gbpd51a26) UNRELEASED; urgency=medium
+jbig2enc (0.29+dfsg1-1) UNRELEASED; urgency=medium
 
   ** SNAPSHOT build @d51a26e2d2e6c4ce94821d77f40c8f8836fe1b73 **
 
@@ -16,8 +16,9 @@ jbig2enc (0.28+git0693dcd-2~4.gbpd51a26) UNRELEASED; urgency=medium
   * debian/libjbig2enc0.symbols: Update the symbols file.
   * debian/source/lintian-overrides:
     + Remove and let the tools whine (we can always shut them up latter).
+  * New upstream version
 
- -- Rogério Brito <rbrito@ime.usp.br>  Sat, 09 Nov 2019 03:16:01 -0300
+ -- Rogério Brito <rbrito@gmail.com>  Fri, 12 Feb 2021 15:08:31 -0300
 
 jbig2enc (0.28+git0693dcd-1) unstable; urgency=medium
 
