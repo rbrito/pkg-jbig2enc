@@ -19,6 +19,7 @@ jbig2enc (0.29+dfsg1-1) UNRELEASED; urgency=medium
   * New upstream version
   * Standards-Version: 4.5.1 (routine-update)
   * debhelper-compat 13 (routine-update)
+  * Add salsa-ci file (routine-update)
 
  -- Rogério Brito <rbrito@gmail.com>  Fri, 12 Feb 2021 15:08:31 -0300
 
