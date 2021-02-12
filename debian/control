@@ -71,7 +71,7 @@ Package: jbig2pdf
 Architecture: all
 Depends:
  ${misc:Depends},
- ${python:Depends}
+ ${python3:Depends}
 Recommends:
  jbig2enc
 Description: Python script to convert jbig2 files to PDF files
