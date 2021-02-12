@@ -3,7 +3,6 @@ Section: graphics
 Priority: optional
 Maintainer: Rogério Brito <rbrito@ime.usp.br>
 Build-Depends:
- debhelper (>= 12),
  debhelper-compat (= 13),
  dh-python,
  libleptonica-dev,
