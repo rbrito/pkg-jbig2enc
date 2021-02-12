@@ -8,5 +8,6 @@ export DEB_LDFLAGS_MAINT_APPEND = -Wl,--as-needed
 override_dh_installdocs:
 	# This is a kludge until we get upstream installation working
 	# as we intend.
+	rm -rf debian/tmp/usr/lib/x86_64-linux-gnu/libjbig2enc.la
 	rm -rf debian/tmp/usr/share/doc/jbig2enc-*
 	dh_installdocs
