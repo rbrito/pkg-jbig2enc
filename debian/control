@@ -6,7 +6,7 @@ Build-Depends:
  debhelper-compat (= 13),
  dh-python,
  libleptonica-dev,
- python-all,
+ python3-all:any,
  zlib1g-dev
 Rules-Requires-Root: no
 Standards-Version: 4.5.1
