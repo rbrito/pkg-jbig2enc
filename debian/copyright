@@ -1,6 +1,10 @@
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: jbig2enc
 Source: https://github.com/agl/jbig2enc
+Files-Excluded:
+    fcd14492.pdf
+Comment: The following files were removed because
+    fcd14492.pdf: Binary with no source
 
 Files: *
 Copyright: 2009-2014 Adam Langley <agl@imperialviolet.org>
