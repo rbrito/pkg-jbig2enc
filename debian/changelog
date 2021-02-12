@@ -1,6 +1,4 @@
-jbig2enc (0.29+dfsg1-1~1.gbp7c61b3) UNRELEASED; urgency=medium
-
-  ** SNAPSHOT build @7c61b3b4ffa1596ffb475e620c52346245a49822 **
+jbig2enc (0.29+dfsg1-1) unstable; urgency=medium
 
   * New upstream version 0.29+dfsg1
   * debian/rules:
@@ -35,8 +33,11 @@ jbig2enc (0.29+dfsg1-1~1.gbp7c61b3) UNRELEASED; urgency=medium
     + Add Bug-Database, Bug-Submit, Repository, Repository-Browse.
   * debian/jbig2enc.docs: Update to cope with renamed upstream docs.
   * debian/*.symbols: Update with new symbols.
+  * debian/{control,copyright}: Use my full name.
+  * Update my email address.
+  * debian/patches: Make python shebang versioned.
 
- -- Rogério Brito <rbrito@gmail.com>  Fri, 12 Feb 2021 15:32:38 -0300
+ -- Rogério Brito <rbrito@gmail.com>  Fri, 12 Feb 2021 17:28:36 -0300
 
 jbig2enc (0.28+git0693dcd-1) unstable; urgency=medium
 
